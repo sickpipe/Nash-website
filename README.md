@@ -11,8 +11,8 @@ The public site for [nasheverett.com](https://nasheverett.com), styled to match 
 
 ```sh
 npm run build    # writes dist/
-npm run dev      # build + wrangler dev
-npm run deploy   # build + deploy to Cloudflare (Worker "nash-website", static assets)
+npm run dev      # wrangler dev (builds first, via [build] in wrangler.toml)
+npm run deploy   # builds, then deploys to Cloudflare (Worker "nash-website", static assets)
 ```
 
 URLs from the old WordPress site are kept where possible (`/mold-remediation/`,

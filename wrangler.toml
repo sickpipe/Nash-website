@@ -6,3 +6,8 @@ compatibility_date = "2026-09-01"
 directory = "./dist"
 not_found_handling = "404-page"
 html_handling = "auto-trailing-slash"
+
+# Wrangler runs this before every deploy and dev session, so `npx wrangler deploy`
+# (what Cloudflare's Git builds run) produces dist/ on its own.
+[build]
+command = "node build.mjs"
