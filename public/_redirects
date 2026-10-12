@@ -1,0 +1,13 @@
+# Old WordPress URLs that changed. Kept URLs (mold-remediation, home-evaluation, moisture-management,
+# crawl-space-encapsulation, indoor-health-assessment, contact) need no entry.
+/duct-cleaning/            /indoor-health-assessment/#ducts     301
+/duct-cleaning             /indoor-health-assessment/#ducts     301
+/ventilation/              /indoor-health-assessment/#ventilation 301
+/ventilation               /indoor-health-assessment/#ventilation 301
+/free-quote/               /contact/#quote                      301
+/free-quote                /contact/#quote                      301
+/mold-estimate/            /contact/#quote                      301
+/mold-estimate             /contact/#quote                      301
+/financing/                /contact/                            301
+/financing                 /contact/                            301
+/success-form-submitted/   /contact/                            301

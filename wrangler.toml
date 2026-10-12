@@ -1,0 +1,8 @@
+# The website, served as static assets by a Cloudflare Worker (no Worker code).
+name = "nash-website"
+compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
